@@ -110,6 +110,14 @@ export const footerSocialLinks = [
 
 export const projects = [
     {
+        title: "Marchands du Vin",
+        description:
+            "Front-end redesign of a wine store on Tiendanube. Revamped the existing storefront on the platform, working with Twig templates to modernize the shopping experience.",
+        image: "/images/marchands-du-vin.jpeg",
+        techStack: ["Tiendanube", "Twig", "HTML/CSS", "JavaScript"],
+        demoUrl: "https://www.marchandsduvin.com.ar/",
+    },
+    {
         title: "Modo Chatbot Interface",
         description:
             "Freelance landing page for an AI service provider. Developed with a focus on responsive UI and custom brand integration.",
@@ -126,15 +134,6 @@ export const projects = [
         techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
         demoUrl: "https://francocarranza.vercel.app/",
         githubUrl: "https://github.com/FrancoCarranza/portfolio",
-    },
-    {
-        title: "React E-Commerce Lab",
-        description:
-            "Academic project focused on complex state management and Firebase integration. Features real-time database synchronization and dynamic inventory control.",
-        image: "/images/react-project.png",
-        techStack: ["React", "Firebase", "Context API", "Netlify"],
-        demoUrl: "https://react-store-25.netlify.app/",
-        githubUrl: "https://github.com/FrancoCarranza/ReactStore-Project-React",
     }
 ];
 
