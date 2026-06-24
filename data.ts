@@ -1,5 +1,5 @@
 import {
-    CheckCircle2,
+    Bot,
     Code2,
     GitBranch,
     GraduationCap,
@@ -7,25 +7,23 @@ import {
     Mail,
     MapPin,
     Phone,
-    RotateCcw,
-    Zap,
 } from "lucide-react";
 
 import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
-import { SiFirebase, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
+import { SiAnthropic, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiOpenai, SiPostman, SiReact, SiSupabase, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const stats = [
     { label: "Year of Engineering", value: "4th" },
     { label: "English Level", value: "B2" },
     { label: "Tech Courses", value: "10+" },
-    { label: "Commitment", value: "100%" },
+    { label: "Years of Experience", value: "2+" },
 ];
 
 export const highlights = [
     { icon: GraduationCap, text: "4th Year Software Engineering" },
-    { icon: Languages, text: "English B2 (FCE Certified)" },
+    { icon: Bot, text: "AI Agents Developer" },
     { icon: Code2, text: "React & Next.js Developer" },
-    { icon: Zap, text: "Fast Learner & Solution Oriented" },
+    { icon: Languages, text: "English B2 (FCE Certified)" },
 ];
 
 export const contactInfo = [
@@ -61,8 +59,8 @@ export const experiences = [
         company: "Agentsapp",
         period: "2026 - Present",
         description:
-            "Developing and maintaining scalable web applications for an AI-driven startup. Focused on building high-performance interfaces and integrating intelligent agent services.",
-        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React", "AI Integration"],
+            "Building and maintaining a full-stack AI automation platform from the ground up. Working across frontend, backend, and third-party integrations as part of a two-person team shipping features to production daily.",
+        technologies: ["Next.js", "TypeScript", "React", "AI Integration", "Supabase"],
     },
     {
         type: "work",
@@ -153,8 +151,9 @@ export const skillCategories = [
         title: "Backend",
         skills: [
             { name: "MySQL", icon: SiMysql },
-            { name: "Firebase (NoSQL)", icon: SiFirebase },
+            { name: "Supabase", icon: SiSupabase },
             { name: "Next.js API Routes", icon: Code2 },
+            { name: "OpenAI SDK", icon: SiOpenai },
         ],
     },
     {
@@ -162,8 +161,7 @@ export const skillCategories = [
         skills: [
             { name: "Git", icon: GitBranch },
             { name: "Vercel", icon: SiVercel },
-            { name: "Agile/Scrum", icon: RotateCcw },
-            { name: "Software Quality", icon: CheckCircle2 },
+            { name: "Claude Code", icon: SiAnthropic },
             { name: "Postman", icon: SiPostman },
         ],
     },

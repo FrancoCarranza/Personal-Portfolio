@@ -34,10 +34,10 @@ export default function About() {
                         A passionate developer who loves to create
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                        I am a Software Engineering student at Universidad Siglo 21 with a strong focus on building efficient and maintainable applications. My journey in technology started with logic and databases, evolving into a specialized interest in Frontend development using React, Next.js, and Tailwind CSS.
+                    I am a Software Engineering student at Universidad Siglo 21 with a strong focus on building efficient and maintainable applications. With hands-on experience developing AI agents and production web apps at a startup, I work across the full stack, from React and Next.js interfaces to backend integrations and APIs.
                     </p>
                     <p className="text-muted-foreground leading-relaxed">
-                        Being in the 4th year of my degree has provided me with a deep understanding of software quality, agile methodologies, and system architecture. I combine this academic background with a certified B2 English level, ready to contribute to global teams and high-impact projects.
+                    Being in the 4th year of my degree has provided me with a deep understanding of software quality, agile methodologies, and system architecture. I combine this academic background with real-world production experience and a certified B2 English level, ready to contribute to global teams and high-impact projects.
                     </p>
                     {/* Highlights */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
